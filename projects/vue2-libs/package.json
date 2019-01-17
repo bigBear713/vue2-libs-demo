@@ -1,0 +1,31 @@
+{
+  "name": "vue2-libs",
+  "version": "2.0.0",
+  "author": "",
+  "private": false,
+  "scripts": {},
+  "main": "./vue2-libs.min.js",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.css": "^8.0.1",
+    "vue": "^2.5.10",
+    "vue-i18n": "^7.8.0"
+  },
+  "devDependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "gitHooks": {
+    "pre-commit": ""
+  },
+  "lint-staged": {
+    "*.js": [
+      "git add"
+    ],
+    "*.vue": [
+      "git add"
+    ]
+  }
+}
