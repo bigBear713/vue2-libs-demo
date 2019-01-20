@@ -17,15 +17,15 @@ export default {
       type: Boolean,
       default: false
     },
-    // 透明度
-    vOpacity: {
-      type: Number,
-      default: 0.4
-    },
     // 遮罩颜色
     vColor: {
       type: String,
       default: "#000"
+    },
+    // 透明度
+    vOpacity: {
+      type: Number,
+      default: 0.4
     },
     // 是否显示遮罩
     vShow: {
@@ -65,11 +65,13 @@ export default {
      *
      * @memberof NgxShadeComponent
      */
-    onClick() {
+    onClick($event) {
       if (this.clickAutoHide) {
         this.show = false;
         this.vShowChange(this.show);
       }
+      // 让父组件也能监听到当前组件的click事件
+      this.$emit("click", $event);
     },
     // ngShow值改变时触发，用于向父组件传递ngShow改变后的值
     vShowChange(value) {

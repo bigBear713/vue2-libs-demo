@@ -36,6 +36,7 @@
     "url": "https://github.com/wjx774326739/vue2-libs-demo/issues"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "normalize.css": "7.0.0",
     "vue": "2.5.17",
     "vue-router": "3.0.2",
