@@ -1,6 +1,10 @@
 # v2.0.0
 ## 2019-01-20
 ### vue2-libs-demo
+- 调整shade-demo的说明文件readme.md的存放位置;更新readme.md说明文件（wangjx）；
+
+## 2019-01-20
+### vue2-libs-demo
 - 增加示例的导航；更新readme.md项目说明文件；shade-demo中新增对v-shade的说明；更新vue2-libs，优化实现（wangjx）；
 
 ## 2019-01-17
