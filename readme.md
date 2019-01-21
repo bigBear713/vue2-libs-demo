@@ -19,7 +19,7 @@
 
 # [vue2-libs更新日志](/projects/vue2-libs/changelog.md)
 
-# [vue-libs-demo更新日志](/projects/vue2-libs/changelog.md)
+# [vue-libs-demo更新日志](/static/changelog.md)
 
 # 组件说明：
 - [v-shade](/src/app/components/shade-demo/readme.md)
