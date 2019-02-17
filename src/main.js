@@ -1,6 +1,7 @@
 import 'babel-polyfill';
 import 'normalize.css/normalize.css'; // A modern alternative to CSS resets
 import 'vue2-libs/vue2-libs.css';
+// import 'vue2-libs/styles.less';
 
 import Vue from 'vue';
 import App from './app/App';

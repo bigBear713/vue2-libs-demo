@@ -1,4 +1,8 @@
 # v2.0.0
+## 2019-02-17
+### ngx-libs-demo
+- 编写prismjs-demo的高亮组件使用示例(wangjx)。
+
 ## 2019-01-21
 ### vue2-libs-demo
 - 调整shade-demo的说明文件readme.md的存放位置;更新readme.md说明文件（wangjx）；

@@ -25,4 +25,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+a {
+  margin: 0 5px;
+}
 </style>
