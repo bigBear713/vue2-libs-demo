@@ -1,5 +1,9 @@
 [
     {
+        "name": "prismjs代码高亮",
+        "link": "/docs/prismjs-demo"
+    },
+    {
         "name": "遮罩",
         "link": "/docs/shade-demo"
     }

@@ -23,3 +23,6 @@
 
 # 组件说明：
 - [v-shade](/src/app/components/shade-demo/readme.md)
+
+# 指令说明
+- [vPrismjs](/src/app/components/prismjs-demo/readme.md)
