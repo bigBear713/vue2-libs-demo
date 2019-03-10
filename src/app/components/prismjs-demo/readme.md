@@ -19,7 +19,7 @@
 - 
 ##### 返回值
 - any - Prismjs的对象;
-#### highlight(code: string, language, grammar):string - 高亮显示代码；
+#### highlight(code, language, grammar):string - 高亮显示代码；
 ##### 参数 
 - code - string - 必填 - 要高亮显示的内;
 - language - string - 必填 -  语言，用于设置以何种语言解析内容;

@@ -17,11 +17,17 @@
 - 以开发模式编译部署整个示例工程：执行命令：`npm run build`
 - 以生产模式模式编译部署整个示例工程：执行命令：`npm run build:prod`
 
+# 快速调试
+- 使用vue2-libs中的组件等，默认是调用node-modules中的代码。这在开发过程中可能会造成不便。当需要直接调试vue2-libs中的组件时，可调整以下两个文件中的配置：
+1. build\webpack.base.conf.js中取消第40行代码的注释；
+2. src\main.js中，将第3行代码注释掉，取消第4行代码的注释；
+
 # [vue2-libs更新日志](/projects/vue2-libs/changelog.md)
 
 # [vue-libs-demo更新日志](/static/changelog.md)
 
 # 组件说明：
+- [v-perfect-scrollbar](/src/app/components/perfect-scrollbar-demo/readme.md)
 - [v-shade](/src/app/components/shade-demo/readme.md)
 
 # 指令说明

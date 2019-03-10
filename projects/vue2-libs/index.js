@@ -1,10 +1,20 @@
 
-export { VShade } from './components';
+export {
+  VShade,
+  VPerfectScrollbar,
+  SCROLL_DIRECTION,
+  VPerfectScrollbarService
+} from './components';
 export { VPrismjs, VPrismjsService } from './directives';
+export { EventListenService } from './services';
 
-import { VShade } from './components';
+import {
+  VShade,
+  VPerfectScrollbar,
+} from './components';
 const COMPONENTS = [
-  VShade
+  VShade,
+  VPerfectScrollbar
 ];
 
 import { VPrismjs } from "./directives";

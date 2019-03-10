@@ -1,5 +1,6 @@
 import shadeDemoRouting from './../shade-demo/shade-demo.routing';
 import { PrismjsDemo } from "./../prismjs-demo/prismjs-demo.routing";
+import { PerfectScrollbarDemo } from "./../perfect-scrollbar-demo/perfect-scrollbar-demo.routing";
 import axios from 'axios';
 const docsRouting = {
     path: '/docs',
@@ -15,6 +16,7 @@ const docsRouting = {
         });
     },
     children: [
+        PerfectScrollbarDemo,
         PrismjsDemo,
         shadeDemoRouting,
         {
