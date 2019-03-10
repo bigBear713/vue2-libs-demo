@@ -2,6 +2,7 @@
 ## 2019-03-10
 ### ngx-perfect-scrollbar
 - 编写perfect-scrollbar-demo的滚动条组件使用示例(wangjx)。
+- 项目说明文档readme.md中新增快速调试的说明（wangjx）；
 
 ## 2019-02-17
 ### ngx-libs-demo
