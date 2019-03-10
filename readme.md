@@ -22,6 +22,7 @@
 # [vue-libs-demo更新日志](/static/changelog.md)
 
 # 组件说明：
+- [v-perfect-scrollbar](/src/app/components/perfect-scrollbar-demo/readme.md)
 - [v-shade](/src/app/components/shade-demo/readme.md)
 
 # 指令说明

@@ -1,4 +1,8 @@
 # v2.0.0
+## 2019-03-10
+### ngx-perfect-scrollbar
+- 编写perfect-scrollbar-demo的滚动条组件使用示例(wangjx)。
+
 ## 2019-02-17
 ### ngx-libs-demo
 - 编写prismjs-demo的高亮组件使用示例(wangjx)。
